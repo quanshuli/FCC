@@ -1,0 +1,91 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<!DOCTYPE html>
+<html lang="eng">
+
+  <head>
+    <style>
+			
+		header{
+			position:fixed;
+      display:flex;
+		}
+      nav{position:fixed;}
+        #box1{
+        	top:0px;
+            background:red;
+            position:fixed;
+        }
+        #box2{
+        	top:0px;
+            left:80px;
+            background:green;
+            position:fixed;
+        }
+        #box3{
+            background:white;
+            top:70px;
+            position:fixed;
+            
+        }
+        #box4{
+        	top:300px;
+            background:brown;
+            position:fixed;
+        }
+        #box5{
+        	top:350px;
+            background:pink;
+            position:fixed;
+        }
+		
+		
+		@media (max-height: 800px){
+			header{
+				position:wrapped;
+			}
+		}
+    </style>
+  </head>
+  
+  <body>
+	<div id="box-containers">
+	
+	<header id="header">
+		<div id="box1"><img id="header-img" src="company logo"></div>
+		<div id="box2">
+		<nav id="nav-bar">
+			<li><a class="nav-link" href="#video">Click Me!</a></li>
+			<li><a class="nav-link" href="#video">Click Me!</a></li>
+			<li><a class="nav-link" href="#video">Click Me!</a></li>			
+		</nav>
+		</div>
+	</header>
+	<div id="box3">
+	<video id="video" width="320" height="240" controls>
+		<source src="product-video.mp4" type="video/mp4">
+	</video>
+	</div>
+
+	<div id="box4"><p id="description">description</p></div>
+	
+	<div id="box5">
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+		<label id="email-label">email</label><br>
+		<input id="email" name="email" type="email" placeholder="type your email here" required>
+				
+		<input id="submit" name="submit" type="submit" value="Submit">
+	</form>
+	</div>
+	</div>
+
+  </body>
+</html>

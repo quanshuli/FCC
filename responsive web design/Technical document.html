@@ -1,0 +1,121 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<!DOCTYPE html>
+<html lang="eng">
+
+  <head>
+    <style>
+      h3{text-align:center;}
+		
+		#bigbox{
+        	display:flex;
+        }
+        #box1{
+        	flex:2;
+            background:green;
+            position:relative;
+            margin:auto;
+            width:80px;
+            bottom:100px;
+            box-sizing: border-box;
+            right:80%;
+        	}
+        #box2{
+        	flex:8;
+            background:pink;
+            position:relative;
+            width:360px;
+            box-sizing: border-box;
+            left:20%;
+        }
+        @media (min-width:300px) {
+			#bigbox{display:flex;}
+		}
+    </style>
+  </head>
+  
+  <body>
+  <main id="main-doc">
+	<h3><header>text that describes the topic of the technical documentation</header></h3>
+		<div id="bigbox">
+    <div id="box2">
+      
+		<section class="main-section" id="topic_1">
+		
+			<header>topic 1</header>
+    <ul>    	
+			<p id="p1"></p>
+			<p id="p2"></p>
+			<li><code></code></li>
+		</ul>	
+		</section>
+		
+		<section class="main-section" id="topic_2">
+		
+			<header>topic 2</header>
+    <ul>
+			<p id="p3"></p>
+			<p id="p4"></p>
+			<li><code id="code2"></code></li>
+		</ul>
+		</section>
+		
+		<section class="main-section" id="topic_3">
+		
+			<header>topic 3</header>
+    <ul>
+			<p id="p5"></p>
+			<p id="p6"></p>
+			<li><code id="code3"></code></li>
+		</ul>
+		</section>
+		
+		<section class="main-section" id="topic_4">
+		
+			<header>topic 4</header>
+    <ul>
+			<p id="p7"></p>
+			<p id="p8"></p>
+			<li><code id="code4"></code></li>
+		</ul>
+		</section>
+		
+		<section class="main-section" id="topic_5">
+		
+			<header>topic 5</header>
+    <ul>
+			<p id="p9"></p>
+			<p id="p10"></p>
+			<li><code id="code5"></code></li>
+		</ul>
+		</section>
+		            
+	</div>
+    
+    <div id="box1">
+  <nav id="navbar">
+	<ul>
+			
+			<header> describe topics </header>
+			<li><a class="nav-link" href="#topic_1">topic 1</a></li>
+			<li><a class="nav-link" href="#topic_2">topic 2</a></li>
+			<li><a class="nav-link" href="#topic_3">topic 3</a></li>
+			<li><a class="nav-link" href="#topic_4">topic 4</a></li>
+			<li><a class="nav-link" href="#topic_5">topic 5</a></li>
+    </ul>
+		</nav>
+   </div> 
+   
+    </div>
+	</main>
+  </body>
+  
+</html>
